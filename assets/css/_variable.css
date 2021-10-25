@@ -1,0 +1,25 @@
+/* Colors Variables*/
+:root{
+
+--primary: #006699;
+--light: #333333;
+--dark: #0d0d0d;
+--gray: #d9d9d9;
+--white: #ffffff;
+--shadow: 0px 1px 2px #cccccc; 
+
+}
+
+/* Font Family */
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Raleway;
+  src: url(../fonts/Raleway/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}

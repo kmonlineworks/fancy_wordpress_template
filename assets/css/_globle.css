@@ -1,0 +1,95 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	font-family: Montserrat, sans-sarif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.6;
+	color: var(--light);
+	background-color: #ccc;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.container-fluid{
+	width: 100vw;
+}
+.container{
+	width: 80vw;
+	margin: 0 auto;
+}
+/* Breadcrumb */
+.breadcrumb{
+	padding: 10px 15px;
+	background-color: var(--white);
+}
+.breadcrumb ul{
+	border-bottom: 1px solid var(--gray);
+	display: flex;
+}
+.breadcrumb ul li{
+	padding: 8px 10px;
+	font-size: 11px;
+}
+.breadcrumb ul li a{
+	color: var(--primary);
+}
+.breadcrumb ul li a:hover{
+	color: var(--light);
+}
+/* Section Setting */
+.section{
+	padding: 80px 25px;
+	background-color: var(--white);
+}
+.section-color{
+	padding: 80px 25px;
+	background-color: var(--primary);
+}
+.section-header{
+	padding: 20px 10px;
+	text-align: center;
+	color: var(--white);
+	margin: 0 auto 20px auto;
+	width: 50%;
+}
+.section-header h3{
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	letter-spacing: 0.2; 
+}
+.section-header-color h3{
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	letter-spacing: 0.2;
+}
+.section-header p{
+	text-transform: uppercase;
+	letter-spacing: 0.2;
+	color: #e2e2e2;
+}
+.section-header-color p{
+	text-transform: uppercase;
+	letter-spacing: 0.2;
+	color: gray;
+}
+.section-header-color{
+	padding: 20px 50px;
+	text-align: center;
+	color: var(--primary);
+	margin: 0 auto 20px auto;
+	width: 50%;
+}
+main{
+	padding-top: 50px;
+}
